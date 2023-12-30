@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<!-- This will be moved to main category right before merge -->
+<Defs>
+    <GeneCategoryDef>
+        <defName>TdT_hiveMind</defName>
+        <label>Hive Minds</label>
+        <displayPriorityInXenotype>580</displayPriorityInXenotype>
+    </GeneCategoryDef>
+</Defs>

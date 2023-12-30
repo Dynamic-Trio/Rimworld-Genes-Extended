@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BackstoryDef>
+    <defName>MadScientist22</defName>
+    <ignoreIllegalLabelCharacterConfigError>False</ignoreIllegalLabelCharacterConfigError>
+    <identifier>MadScientist22</identifier>
+    <slot>Adulthood</slot>
+    <title>mad scientist</title>
+    <titleShort>scientist</titleShort>
+    <baseDesc>Stripped of [PAWN_possessive] life's work and exiled after [PAWN_possessive] unethical experiments on the survivors of the Callos IX incident were published, [PAWN_nameDef] learned the skills necessary to survive in the outer rim.
+
+Continuing [PAWN_possessive] research with nothing left to lose, [PAWN_pronoun] made minions to carry out the tasks that bored him.</baseDesc>
+    <skillGains>
+      <li>
+        <key>Intellectual</key>
+        <value>5</value>
+      </li>
+      <li>
+        <key>Shooting</key>
+        <value>5</value>
+      </li>
+      <li>
+        <key>Medicine</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Crafting</key>
+        <value>2</value>
+      </li>
+    </skillGains>
+    <workDisables>Hauling, Mining</workDisables>
+    <requiredWorkTags>None</requiredWorkTags>
+    <spawnCategories>
+      <li>Pirate</li>
+		</spawnCategories>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<shuffleable>False</shuffleable>
+	</BackstoryDef>
+  </Defs>
