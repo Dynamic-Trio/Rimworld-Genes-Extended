@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<geneDef Name="TdT_ShieldGene_Base" Abstract="true">
+		<labelShortAdj>Inate Shield</labelShortAdj>
+		<displayCategory>TdT_Test</displayCategory>
+		<biostatCpx>5</biostatCpx>
+		<biostatMet>-5</biostatMet>
+		<marketValueFactor>2</marketValueFactor>
+	</geneDef>
+</Defs>

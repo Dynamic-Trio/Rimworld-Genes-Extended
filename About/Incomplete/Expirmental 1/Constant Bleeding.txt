@@ -1,0 +1,28 @@
+	<GeneDef>
+		<geneClass>EBSGFramework.HediffAdder</geneClass>
+		<defName>TdT_BleedingConstant</defName>
+		<label>Constang Bleeding</label>
+		<labelShortAdj>Constant Bleeding</labelShortAdj>
+		<description>For an unknown reason, this pawn is constantly bleeding from their pores. While it does have the benifit of preventing more extreme bleeding, it is quite strange and often unapealing</description>
+		<modExtensions>
+			<li Class="EBSGFramework.EBSGExtension">
+				<hediffsToApply>
+					<li>
+						<hediff>BloodLoss</hediff>
+						<onlyIfNew>false</onlyIfNew>
+						<severity>0.50</severity>					
+					</li>
+				</hediffsToApply>
+			</li>
+		</modExtensions>
+		<capMods>
+			<li>
+				<capacity>Consciousness</capacity>
+				<offset>0.4</offset>
+			</li>
+		</capMods>
+	</GeneDef>
+
+
+
+needs some sort of permanent bleeding wound. Shame...

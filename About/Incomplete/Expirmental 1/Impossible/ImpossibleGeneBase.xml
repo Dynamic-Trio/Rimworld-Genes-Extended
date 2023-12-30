@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<GeneDef Name="TdT_impossible_base" Abstract="True">
+		<displayCategory>TdT_Evil</displayCategory>
+	</GeneDef>
+	
+	<GeneDef ParentName="TdT_impossible_base" Name="TdT_impossible_temp" Abstract="True">
+		<statOffsets>
+            <ComfyTemperatureMax>-26</ComfyTemperatureMax>
+            <ComfyTemperatureMin>-16</ComfyTemperatureMin>
+        </statOffsets>
+	</GeneDef>
+</Defs>

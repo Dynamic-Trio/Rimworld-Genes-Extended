@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<geneDef parentName="TdT_ShieldGene_Base">
+		<defName>TdT_InateShield_normal</defName>
+		<label>Inate Shield</label>
+		<description>These pawns have an inate energy field around them that can absorb damage</description>
+		<biostatCpx>5</biostatCpx>
+		<biostatMet>-5</biostatMet>
+		<modExtensions>>
+			<li Class="VFECore.CompProperties_ShieldBubble">
+				<EnergyShieldRechargeRate>0.1</EnergyShieldRechargeRate>
+				<!-- Set the shield energy recharge rate -->
+				<EnergyShieldEnergyMax>100</EnergyShieldEnergyMax>
+				<!-- Set the shield max energy -->
+				<blockRangedAttack>true</blockRangedAttack>
+				<!-- Set if it block incoming ranged attack -->
+				<blockMeleeAttack>false</blockMeleeAttack>
+				<!-- Set if it block incoming melee attack -->
+				<shieldTexPath>Other/ShieldBubble</shieldTexPath>
+				<!-- Shield texture path -->
+				<showWhenDrafted>true</showWhenDrafted>
+				<!-- Set if it should be showed when the pawn is drafted -->
+				<showAlways>false</showAlways>
+				<!-- Set if it should always be showed -->
+				<showOnHostiles>true</showOnHostiles>
+				<!-- Set if it should be showed on hostile pawns -->
+				<showOnNeutralInCombat>true</showOnNeutralInCombat>
+				<!-- Set if it should be showed on neutral pawns -->
+				<maxShieldSize>1.8</maxShieldSize>
+				<!-- Set maximum shield size (when energy is full) -->
+				<minShieldSize>1.4</minShieldSize>
+				<!-- Set minimum shield size (when energy is empty) -->
+				<shieldColor>(1, 1, 1, 1)</shieldColor>
+				<!-- Set the shield color (can be rgb or rgba) -->
+				<EnergyLossPerDamage>1f</EnergyLossPerDamage>
+				<!-- Set the damage multiplier (0 mean the shield will never break) -->
+				<disableRotation>true</disableRotation>
+				<!-- Set if the shield texture can be rotated -->
+				<absorbDamageSound>EnergyShield_AbsorbDamage</absorbDamageSound>
+				<!-- SoundDef played when absorbing damage -->
+				<brokenSound>EnergyShield_Broken</brokenSound>
+				<!-- SoundDef played when the shield break -->
+				<resetSound>EnergyShield_Reset</resetSound>
+				<!-- SoundDef played when the shield reset (regenerate) -->
+			</li>
+		</modExtensions>
+	</geneDef>
+</Defs>
+
+
+

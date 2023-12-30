@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="TdT_impossible_temp">
+		<defName>TdT_thermal_null</defName>
+		<label>Thermal Nullifier</label>
+		<labelShortAdj>Thermal Nullifier</labelShortAdj>
+		<description>Carriers with this gene find themselves comfortable only at 0 degrees. Their only hope is some sort of offsetts</description>
+		<statFactors>
+            <ComfyTemperatureMax>0</ComfyTemperatureMax>
+            <ComfyTemperatureMin>0</ComfyTemperatureMin>
+        </statFactors>
+		<displayOrderInCategory>1</displayOrderInCategory>
+	</GeneDef>
+	<GeneDef ParentName="TdT_impossible_temp">
+		<defName>TdT_thermal_invert_0</defName>
+		<label>Thermal Inversion (minor)</label>
+		<labelShortAdj>Minor Thermal Inversion</labelShortAdj>
+		<description>Carriers of this gene are somehow inverted, finding cold wether too warm, and warm wether too cold. There is no known easy fix. luckilly, the amount is "manageable", with work. There is no soloution known</description>
+		<displayOrderInCategory>3</displayOrderInCategory>
+		<statFactors>
+			<ComfyTemperatureMax>-0.25</ComfyTemperatureMax>
+            <ComfyTemperatureMin>-0.25</ComfyTemperatureMin>
+        </statFactors>
+	</GeneDef>
+	<GeneDef ParentName="TdT_impossible_temp">
+		<defName>TdT_thermal_invert_1</defName>
+		<label>Thermal Inversion</label>
+		<labelShortAdj>Thermal Inversion</labelShortAdj>
+		<description>Carriers of this gene are somehow inverted, finding cold wether too warm, and warm wether too cold. There is no simple soloution known</description>
+		<displayOrderInCategory>3</displayOrderInCategory>
+        <statFactors>
+            <ComfyTemperatureMax>-1</ComfyTemperatureMax>
+            <ComfyTemperatureMin>-1</ComfyTemperatureMin>
+        </statFactors>
+	</GeneDef>
+	<GeneDef ParentName="TdT_impossible_temp">
+		<defName>TdT_thermal_invert_2</defName>
+		<label>Hyper Thermal Inversion</label>
+		<labelShortAdj>Extreme Thermal Inversion</labelShortAdj>
+		<description>Carriers of this gene are somehow inverted and amplified, finding snowflakes burning hot, and a warm day a freezer. They are, effectivly, doomed from birth, short of replaceing most biological parts.</description>
+		<displayOrderInCategory>3</displayOrderInCategory>
+        <statFactors>
+            <ComfyTemperatureMax>-5</ComfyTemperatureMax>
+            <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+        </statFactors>
+  </GeneDef>
+</Defs>

@@ -10,4 +10,9 @@
         <label>Test Genes</label>
         <displayPriorityInXenotype>10000</displayPriorityInXenotype>
     </GeneCategoryDef>
+	<GeneCategoryDef>
+		<defName>TdT_ShieldGenes</defName>
+		<label>Inate Shields</label>
+		<displayPriorityInXenotype>500</displayPriorityInXenotype>
+	</GeneCategoryDef>
 </Defs>
